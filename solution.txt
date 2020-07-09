@@ -5,6 +5,7 @@
 using namespace std;
 int main(){
     int n;
+    cout<<"Enter a number: ";
     cin >> n;
     if (1<n<9){
         if (n == 1){
@@ -34,9 +35,8 @@ int main(){
         else if (n == 9){
             cout << "nine";
         }
-
-    }
-    else {
+        else {
         cout << "Greater than 9";
     }
+   }
 }
